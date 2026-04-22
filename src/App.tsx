@@ -19,7 +19,7 @@ export default function App() {
       <nav className="fixed top-0 inset-x-0 z-50 glass-panel border-b border-white/5 bg-sleep-900/60 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between relative">
           <a href="#" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity z-10">
-            <img src="/logo.png" alt="Can't Sleep Logo" className="w-8 h-8 sm:w-10 sm:h-10 object-contain drop-shadow-[0_0_15px_rgba(168,85,247,0.4)]" />
+            <img src="./logo.png" alt="Can't Sleep Logo" className="w-8 h-8 sm:w-10 sm:h-10 object-contain drop-shadow-[0_0_15px_rgba(168,85,247,0.4)]" />
             <span className="font-display font-bold text-lg sm:text-xl tracking-wide">Can't Sleep</span>
           </a>
           <a 
@@ -44,7 +44,7 @@ export default function App() {
       <footer className="border-t border-white/5 bg-sleep-900 py-10 sm:py-12 px-4 sm:px-6 relative z-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 overflow-hidden">
           <div className="flex items-center gap-2.5">
-            <img src="/logo.png" alt="Can't Sleep Logo" className="w-6 h-6 object-contain opacity-80" />
+            <img src="./logo.png" alt="Can't Sleep Logo" className="w-6 h-6 object-contain opacity-80" />
             <span className="font-display font-semibold text-lg tracking-wide text-slate-300">Can't Sleep</span>
           </div>
           <p className="text-slate-500 text-xs sm:text-sm text-center md:text-left">
