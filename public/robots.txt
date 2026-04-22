@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Allow: /#blog
+Allow: /#blog-*
 
 Sitemap: https://kutral.github.io/CantSleep/sitemap.xml
