@@ -18,9 +18,9 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 inset-x-0 z-50 glass-panel border-b border-white/5 bg-sleep-900/60 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between relative">
-          <a href="#" className="flex items-center gap-1.5 sm:gap-2 hover:opacity-80 transition-opacity z-10">
-            <Moon className="w-5 h-5 sm:w-6 sm:h-6 text-indigo-300" />
-            <span className="font-display font-semibold text-lg sm:text-xl tracking-wide">Can't Sleep</span>
+          <a href="#" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity z-10">
+            <img src="/logo.png" alt="Can't Sleep Logo" className="w-8 h-8 sm:w-10 sm:h-10 object-contain drop-shadow-[0_0_15px_rgba(168,85,247,0.4)]" />
+            <span className="font-display font-bold text-lg sm:text-xl tracking-wide">Can't Sleep</span>
           </a>
           <a 
             href="https://play.google.com/store/apps/details?id=com.cantsleep.app" 
@@ -29,8 +29,8 @@ export default function App() {
             className="bg-white text-black px-4 py-2 sm:px-6 sm:py-2.5 rounded-full font-bold text-xs sm:text-sm hover:scale-105 active:scale-95 transition-transform flex items-center gap-1.5 sm:gap-2 z-10 shadow-[0_0_20px_rgba(255,255,255,0.2)]"
           >
             <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span className="hidden xs:inline sm:inline">Get for Android</span>
-            <span className="inline xs:hidden">Get App</span>
+            <span className="hidden sm:inline">Get for Android</span>
+            <span className="inline sm:hidden">Get App</span>
           </a>
         </div>
       </nav>
@@ -43,8 +43,8 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-white/5 bg-sleep-900 py-10 sm:py-12 px-4 sm:px-6 relative z-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 overflow-hidden">
-          <div className="flex items-center gap-2">
-            <Moon className="w-5 h-5 text-indigo-300" />
+          <div className="flex items-center gap-2.5">
+            <img src="/logo.png" alt="Can't Sleep Logo" className="w-6 h-6 object-contain opacity-80" />
             <span className="font-display font-semibold text-lg tracking-wide text-slate-300">Can't Sleep</span>
           </div>
           <p className="text-slate-500 text-xs sm:text-sm text-center md:text-left">
